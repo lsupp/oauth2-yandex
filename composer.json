@@ -1,0 +1,29 @@
+{
+    "name": "lsupp/oauth2-yandex",
+    "description": "Yandex provider for league/oauth2-client",
+    "keywords": [
+        "oauth2",
+        "league",
+        "yandex",
+        "authorization",
+        "authentication",
+        "package",
+        "ya",
+        "symfony"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sasha"
+        }
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "league/oauth2-client": "^2.0 || ^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lsupp\\OAuth2\\Client\\Provider\\": "src/"
+        }
+    }
+}
